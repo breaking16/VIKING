@@ -140,7 +140,7 @@ ul {
   line-height: 84px;
   font-weight: 300;
   color: #85ccdc;
-  padding-top: 444px;
+  padding-top: 45vh;
   margin-bottom: 40px;
 }
 
@@ -336,10 +336,64 @@ ul {
     font-size: 24px;
     line-height: 32px;
   }
+  .about__info {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1088px) {
+  .seasons__item {
+    height: 340px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__inner {
+    display: block;
+  }
+  .section-page {
+    padding: 50px 0;
+  }
+  .title {
+    margin-bottom: 50px;
+  }
+  body {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .video__text span {
+    padding-right: 200px;
+  }
+  .video__text {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .video__btn {
+    margin-right: 0;
+    padding-left: 62px;
+  }
+  .video__btn::before {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    top: -16px;
+  }
+  .seasons__inner {
+    grid-gap: 80px 35px;
+  }
 }
 
 @media (max-width: 640px) {
   .menu__list {
     display: none;
+  }
+  .logo {
+    padding-top: 21vh;
+  }
+}
+
+@media (max-width: 414px) {
+  .seasons__item {
+    height: 203px;
   }
 }
