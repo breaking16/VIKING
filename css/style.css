@@ -328,6 +328,13 @@ ul {
 
 /* end season-1 */
 
+@media (max-width: 1420px) {
+  .page-logo {
+    left: 10px;
+    top: -6px;
+  }
+}
+
 @media (max-width: 1366px) {
   .logo__img {
     width: 50%;
@@ -338,6 +345,22 @@ ul {
   }
   .about__info {
     width: 250px;
+  }
+  .page-header {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heroes__inner {
+    display: block;
+  }
+  .heroes__slider-text {
+    padding-top: 50px;
+    max-width: 100%;
+  }
+  .heroes__slider-img {
+    max-width: 100%;
   }
 }
 
@@ -356,6 +379,8 @@ ul {
   }
   .title {
     margin-bottom: 50px;
+    font-size: 28px;
+    line-height: 36px;
   }
   body {
     font-size: 16px;
@@ -380,6 +405,11 @@ ul {
   }
   .seasons__inner {
     grid-gap: 80px 35px;
+  }
+  .heroes__name {
+    font-size: 46px;
+    line-height: 56px;
+    margin-bottom: 25px;
   }
 }
 
