@@ -99,7 +99,7 @@ ul {
 }
 
 .logo {
-  padding-top: 278px;
+  padding-top: 17vh;
 }
 
 .about__inner {
@@ -327,3 +327,19 @@ ul {
 }
 
 /* end season-1 */
+
+@media (max-width: 1366px) {
+  .logo__img {
+    width: 50%;
+  }
+  .menu__list-link {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .menu__list {
+    display: none;
+  }
+}
